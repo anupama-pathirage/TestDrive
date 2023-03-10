@@ -1,11 +1,11 @@
 import ballerinax/kafka;
 import ballerina/log;
 
-configurable string groupId = "order-consumers";
-configurable string orders = "orders";
-configurable string paymentSuccessOrders = "payment-success-orders";
-configurable decimal pollingInterval = 1;
-configurable string kafkaEndpoint = "pkc-6ojv2.us-west4.gcp.confluent.cloud:9092";
+string groupId = "order-consumers";
+string orders = "orders";
+string paymentSuccessOrders = "payment-success-orders";
+decimal pollingInterval = 1;
+string kafkaEndpoint = "pkc-6ojv2.us-west4.gcp.confluent.cloud:9092";
 
 //configurable string kafkaEndpoint = "2.tcp.ngrok.io:14890";
 
